@@ -1,0 +1,112 @@
+@font-face {font-family: "Circular Spotify Tx T Black"; src: url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot"); src: url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff") format("woff"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.svg#Circular Spotify Tx T Black") format("svg"); }
+* {
+    font-family: Circular Spotify Tx T Black;
+}
+body {
+    background-image: url(projeto-inicial-spotify/imagens/capa.png);
+    background-color: rgba(153, 50, 204, 0.637);
+    height: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+header {
+    min-height: 90px;
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+main {
+    margin-top: 300px;
+}
+footer {
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    z-index: 10;   
+}
+footer a:hover {
+    text-decoration: none;
+}
+
+#header-spotify {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+#header-spotify span {
+    font-size: 25px;
+    font-weight: bold;
+}
+#musica-free {
+    text-transform: uppercase;
+    background-color: rgba(204, 50, 171, 0.781);
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    transition-duration: 1s;
+}
+#musica-free:hover {
+    background-color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+    color: black;
+}
+#container-1 {
+    margin-top: 380px;
+}
+#container-2 {
+    margin-top: 10px;
+}
+#container-2 h1 {
+    font-size: 60px;
+}
+#facil-imagens {
+    width: 100%;
+    margin-top: 80px;
+    transform: rotate(35deg);
+}
+#facil-imagens img {
+    width: 300px;
+}
+
+.icon-spot {
+    font-size: 40px;
+}
+.titulo-slide {
+    font-size: 100px;
+}
+.premium {
+    text-transform: uppercase;
+    border: 0.5px solid white;
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    transition-duration: 1s;
+}
+.premium:hover {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    transform: scale(1.1);
+    color: black;
+}
+.menu-top a {
+    transition-duration: 1s;
+}
+.menu-top a:hover {
+    transform: scale(1.05);
+}
+.caixa1 img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.caixa2 h2, h4 {
+    color: purple
+}
+.indicadores {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
